@@ -1,0 +1,28 @@
+{
+    "name": "pim/tdd-ddd-teamwork",
+    "description": "TDD, DDD & Teamwork workshop",
+    "require": {
+        "php": "^8.0",
+        "ramsey/uuid": "^4.7",
+        "webmozart/assert": "^1.11"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "^10.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "Pelshoff\\Workshop\\": "src/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Pelshoff\\Workshop\\Tests\\": "tests/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Pim Elshoff",
+            "email": "pim.elshoff@gosuperscript.com"
+        }
+    ]
+}
